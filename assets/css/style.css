@@ -1,0 +1,58 @@
+body{
+    color: #909090;
+    font-family: 'Gill Sans Std';
+}
+
+#menu li .nav-link{
+    color:#fff;
+}
+#menu.active{
+    background-color: #000;
+}
+
+.hero {
+    background-image: url(../../assets/img/header-HS-PC.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    min-height: 100vh;
+    align-items: center;
+    position: relative;
+}
+
+.seccion-width{
+    width: 80%;
+    margin: auto;
+}  
+
+.img-content{
+    width:100%;
+}
+
+.carousel-indicators{
+    bottom: -60px;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #dd4040;
+}
+
+footer{
+    background: #000;
+    width: 100%;
+}
+
+@media (max-width:425px){
+    .hero{
+        background-image: url(../../assets/img/hero-mobile.jpg);
+        background-size: 100% auto;
+        min-height: 60vh;
+    }
+
+    .seccion-width{
+        width: 95%;
+    }
+}
